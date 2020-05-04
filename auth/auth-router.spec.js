@@ -33,6 +33,6 @@ describe("user model", () => {
   });
 });
 
-beforeEach(async () => {
-  await db("users").truncate();
-});
+// beforeEach(async () => {
+//   await db("users").truncate();
+// });
